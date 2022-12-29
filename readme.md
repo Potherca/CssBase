@@ -22,5 +22,5 @@ online makes it even easier to include and re-use them. So here we are...
 ### The Collection
 To view the various stylesheets, please visit [the accompanying website][1]
 
-[1]: http://potherca.github.com/CssBase/
+[1]: https://pother.ca/CssBase/
 <!-- EOF -->
