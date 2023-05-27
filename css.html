@@ -20,9 +20,8 @@
     var sUrl = $('.source').attr('href');
 
     $.get(sUrl, function(p_sResult) {
-
         $('.page').html(
-            marked(p_sResult)
+            marked.parse(p_sResult)
         );
         
         $('code').addClass('css');
