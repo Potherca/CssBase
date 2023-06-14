@@ -13,7 +13,8 @@
     border-bottom-color: rgba(220, 50, 50, 1);
     color: rgb(220, 50, 47);
     position: relative;
-    transition: border 0.35s ease-out
+    transition: border 0.35s ease-out;
+    text-decoration: none;
 }
 
 .created-by:hover .potherca,
@@ -21,7 +22,6 @@
     border-bottom-color: rgba(220, 50, 50, 0);
     border-color: transparent;
     color: rgb(255,255,255);
-    text-decoration: none;
 }
 
 .potherca::after,
@@ -37,13 +37,13 @@
     top: -0.85em;
     transform: rotatex(90deg);
     transition: transform 0.35s ease-out;
-    width: 4em
+    width: 4em;
 }
 
 .created-by:hover .potherca::after,
 .created-by:hover .Potherca::after {
     height: 4em;
-    transform: rotatex(0deg)
+    transform: rotatex(0deg);
 }
 
 /*EOF*/
